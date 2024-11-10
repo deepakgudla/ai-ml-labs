@@ -27,7 +27,7 @@ The MLOps workflow consists of four major components:
 
 ---
 
-## 1. Data-Collection-and-Preparation
+## 1. Data Collection and Preparation
 
 Data is the foundation for ML model development. This stage includes:
 

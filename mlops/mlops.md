@@ -86,3 +86,11 @@ Ensuring models perform optimally in production requires ongoing monitoring and 
   - Receive alerts if the model has not been deployed recently, ensuring freshness.
 
 ---
+
+## packaging ML models
+
+* modularization approach for writing code
+* virtual environments - setting up
+* serialization and de serialization
+* packaging in python
+* developing, building and deploying ML packages

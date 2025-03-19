@@ -1,20 +1,22 @@
 # MLOps: Machine Learning Operations
 
-MLOps (Machine Learning Operations) supports CI/CD (Continuous Integration and Continuous Deployment) for machine learning projects, providing a standardized approach to deploying and managing ML models. Key components include:
+`MLOps` (Machine Learning Operations) supports CI/CD (Continuous Integration and Continuous Deployment) for machine learning projects, providing a standardized approach to deploying and managing ML models. Key components include:
 
 - **Standardizing deployment and management** of ML models.
 - **Building and deploying** ML models to production.
 - **Automating environments** and processes for deploying ML projects to production.
 
-`MLOps` represents a fusion of machine learning and operations, encapsulating the processes and practices necessary for effective deployment of ML models in production environments.
+- `MLOps` represents a fusion of machine learning and operations, encapsulating the processes and practices necessary for effective deployment of ML models in production environments.
 
 ### MLOps and Continuous Improvement
 
 MLOps is rooted in the concept of continuous improvement, drawing inspiration from the Japanese philosophy of `Kaizen`.
-
 - **`Kaizen`**: Focuses on improving all aspects of a business activity, from model accuracy to the broader ML ecosystem.
-
 ---
+
+### What is MLOps?
+- `MLOps` is not just about tracking loccal experiment or it is not about just placing a model behind an API endpoint.
+- `MLOps` is about an automated environment and the process for continuously delivering projects to the production environment
 
 ## Stages of MLOps
 

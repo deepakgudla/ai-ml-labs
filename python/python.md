@@ -42,8 +42,8 @@ print ("the value of c is", c)
     - bitwise operator
         - & - and gate
     - identity operator <br> 
-        `is` and `is not` <br> 
-        `a is 1` returns true
+        - `is` and `is not` <br> 
+        - `a is 1` returns true
     - membership operator <br> 
         `in` and `not in`
 

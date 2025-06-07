@@ -1,13 +1,23 @@
-FROM python:3.10
+# Use Python 3.9 slim image as base
+FROM python:3.9-slim
 
+# Set working directory in container
 WORKDIR /app
 
-COPY requirements.txt ./
+# Copy requirements first (for better layer caching)
+COPY requirements.txt .
 
-RUN pip install -r requirements.txt
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . .
+# Copy application code
+COPY app.py .
 
-EXPOSE 1357
+# Expose port 5000
+EXPOSE 5000
 
-CMD [ "gunicorn", "-b", "0.0.0.0:1357", "app:app" ]
+# Set environment variable
+ENV PORT=5000
+
+# Run the application
+CMD ["python", "app.py"] 

@@ -1,12 +1,9 @@
-# python
+# Python
 
-created by Guido van Rossum in the year 1991
-
-named after a sitcom - Monty python flying circus
-
-approach - top down
-
-its an  interpreter
+* created by Guido van Rossum in the year 1991
+* named after a sitcom - Monty python flying circus
+* Top down approach
+* Python is considered as an interpreted language
 
 ## variables
 
